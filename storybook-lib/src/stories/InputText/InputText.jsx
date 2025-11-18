@@ -45,7 +45,7 @@ const InputText = ({
         if (!validatePassword(e.target.value)) {
           setIsError(true);
           setErrorMsg(
-            "Password must be 8+ chars with 1 uppercase, 1 number and 1 special char"
+            "Password must be 8+ chars with 1 uppercase, 1 number and 1 special char",
           );
         } else {
           setIsError(false);

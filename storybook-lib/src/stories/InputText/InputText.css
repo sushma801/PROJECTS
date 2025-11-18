@@ -1,23 +1,23 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    row-gap: 0.5rem;
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  row-gap: 0.5rem;
 }
-.primary-label{
-    font-size: 1rem;
-    color: var(--primary-color);
-    font-weight: 500;
-    &:hover{
-        font-weight: 600;
-        color: var(--primary-color-darker);
-    }
+.primary-label {
+  font-size: 1rem;
+  color: var(--primary-color);
+  font-weight: 500;
+  &:hover {
+    font-weight: 600;
+    color: var(--primary-color-darker);
+  }
 }
-.primary-input{
-    padding: 0.6rem;
-    border-radius: 0.5rem;
+.primary-input {
+  padding: 0.6rem;
+  border-radius: 0.5rem;
 }
 
-.error-text{
-    color: var(--error-font-color);
+.error-text {
+  color: var(--error-font-color);
 }
