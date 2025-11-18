@@ -13,3 +13,27 @@ export const primaryInputText = {
     ariaLabel: "Primary Text",
   },
 };
+
+export const secondaryInputText = {
+  args: {
+    label: "Seconday Text",
+    type: "email",
+    ariaLabel: "sushmashaw80@gmail.com",
+  },
+};
+
+export const inputTextWithError = {
+  args: {
+    label: "Error Text",
+    type: "text",
+    Error: true,
+  },
+};
+
+export const inputTextWithPassword = {
+  args: {
+    label: "Password",
+    type: "password",
+    ariaLabel: "Password",
+  },
+};
